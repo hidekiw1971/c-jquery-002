@@ -1,0 +1,16 @@
+@use "global" as *;
+
+body {
+  height: rem(2000);
+}
+
+.kore {
+  display: block;
+  width: 100%;
+  padding: rem(5) rem(50);
+  background: rgba(255, 20, 147, 1);
+  position: fixed;
+  bottom: rem(50);
+  left: 50%;
+  transform: translateX(-50%);
+}
